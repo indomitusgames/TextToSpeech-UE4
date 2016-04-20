@@ -17,10 +17,6 @@
 			"Name" : "TextToSpeechRuntime",
 			"Type" : "Runtime",
 			"LoadingPhase": "PreDefault"
-		},
-		{
-			"Name" : "TextToSpeechEditor",
-			"Type" : "Editor"
 		}
 	]
 }
