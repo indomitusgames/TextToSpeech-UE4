@@ -1,0 +1,26 @@
+{
+	"FileVersion" : 3,
+	
+	"FriendlyName" : "Test To Speech",
+	"Version" : 1,
+	"VersionName" : "0.1.0",
+	"CreatedBy" : "Indomitus Games",
+	"CreatedByURL" : "http://www.indomitusgames.com",
+	"EngineVersion" : "4.2.0",
+	"Description" : "Plugin allowing Text To Speech synthesis. Uses the Microsoft SAPI libraries",
+	"Category" : "Audio",
+	"EnabledByDefault" : true,
+	
+	"Modules" :
+	[
+		{
+			"Name" : "TextToSpeechRuntime",
+			"Type" : "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name" : "TextToSpeechEditor",
+			"Type" : "Editor"
+		}
+	]
+}
