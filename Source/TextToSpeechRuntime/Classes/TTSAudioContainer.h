@@ -1,7 +1,5 @@
 #pragma once
 
-
-
 /* AudioComponent includes */
 #include "GameFramework/Actor.h"
 #include "Components/SceneComponent.h"
