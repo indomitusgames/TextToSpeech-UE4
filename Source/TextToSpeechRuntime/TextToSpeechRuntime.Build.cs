@@ -11,7 +11,7 @@ namespace UnrealBuildTool.Rules
 		{
 			PublicIncludePaths.AddRange(
 				new string[] {
-					// ... add public include paths required here ...
+					
 				}
 				);
 
@@ -19,7 +19,7 @@ namespace UnrealBuildTool.Rules
 				new string[] {
 					"TextToSpeechRuntime/Private",
 					"FMRTTSLib"
-					// ... add other private include paths required here ...
+					
 				}
 				);
 
@@ -31,7 +31,7 @@ namespace UnrealBuildTool.Rules
 					"Engine",
 					"InputCore",
 					"Media"
-					// ... add other public dependencies that you statically link with here ...
+					
 				}
 				);
 
@@ -39,17 +39,16 @@ namespace UnrealBuildTool.Rules
 				new string[]
 				{
 					
-					// ... add private dependencies that you statically link with here ...
 				}
 				);
 
 			DynamicallyLoadedModuleNames.AddRange(
 				new string[]
 				{
-					// ... add any modules that your module loads dynamically here ...
+					
 				}
 				);
-			//Necessary to build Media Sound Wave - will be fixed in 4.11
+			//Necessary to build Media Sound Wave - should be fixed in 4.11
 			PrivateIncludePathModuleNames.Add("Media");
 			PrivateIncludePathModuleNames.Add("Engine");
 			

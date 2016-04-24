@@ -6,9 +6,9 @@
 
 #include "TTSBlueprintLibrary.generated.h"
 
-//note about UBlueprintFunctionLibrary
-// This class is a base class for any function libraries exposed to blueprints.
-// Methods in subclasses are expected to be static
+/**
+ * Blueprint library to spawn a TTS Audio Container
+ */
 
 UCLASS()
 class TEXTTOSPEECHRUNTIME_API UTTSBlueprintLibrary : public UBlueprintFunctionLibrary
