@@ -7,7 +7,7 @@ Currently needs the English TTS SAPI voice to be available on Windows.
 This Unreal Engine 4 plugin allows you to synthetise text to spoken audio. Internally, it uses the compiled FMRTTSLib, whose source code is available at [https://github.com/indomitusgames/FMRTTSLib](https://github.com/indomitusgames/FMRTTSLib).
 
 ## How to use it
-* Checkout the code into your project "Plugins" directory. It may be necessary to create it under the project root.
+* Checkout the code into your project's "Plugins" directory. It may be necessary to create it under the project root.
 * Check the plugin is active in Unreal Engine 4 editor
 * The plugin exposes a new Blueprint node, "Spawn TTS", on which you can call a "Play" function. On the node you can set the text to be spoken
 
