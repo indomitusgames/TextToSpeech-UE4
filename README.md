@@ -1,6 +1,8 @@
 # TextToSpeech-UE4
 Text To Speech synthesis for Unreal Engine 4. Uses the Windows SAPI libraries.
 
+Version 0.1.0-alpha
+
 Currently needs the English TTS SAPI voice to be available on Windows.
 
 ## What it is
